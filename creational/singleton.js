@@ -16,3 +16,10 @@ module.exports = Person;
 // How It Works
 // The first time new Person() is called, a new instance is created and stored in Person.instance.
 // Subsequent calls to new Person() will return the same instance stored in Person.instance, ensuring that there is only one instance of Person throughout the application.
+
+
+// Usage Example
+const person1 = new Person();
+const person2 = new Person();
+
+console.log(person1 === person2); // true
